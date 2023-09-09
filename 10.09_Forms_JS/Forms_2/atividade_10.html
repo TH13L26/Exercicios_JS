@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 10</title>
+</head>
+<body>
+    <script>
+        let poligono = parseInt(prompt("Qual o número de lados?"));
+        
+
+        if(poligono == 3){
+            document.write("Triângulo" + "<br>")
+            let perimetro = parseFloat(prompt("Informe o tamanho do triângulo regular"));
+            let resultado = perimetro * 3
+            document.write("O valor do perimetro é: " + resultado)
+        }else if(poligono == 4){
+            document.write("Quadrado" + "<br>")
+            let base = parseFloat(prompt("Informe a base do quadrado"));
+            let altura = parseFloat(prompt("Informe a altura do quadrado"));
+            let resultado2 = base * altura
+            document.write("O valor da base do quadrado é : " + resultado2)
+        }else if(poligono == 5){
+            document.write("Pentágono")
+        }else if(poligono > 5){
+            document.write("Polígono não identificado!")
+        }else{
+            document.write("Não é um polígono!")
+        }
+
+    </script>
+</body>
+</html>
