@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let maca = parseInt(prompt("Quantas maças vc deseja comprar?"));
+        let pouca = 3.50 * maca
+        let duzia = 2.50 * maca
+
+            if(maca < 12){
+                document.write("O preço a ser pago é:" + "<br>" + "R$: " + pouca)
+            }else{
+                document.write("O preço a ser pago é:" + "<br>" + "R$: " + duzia)
+            }
+    </script>
+</body>
+</html>

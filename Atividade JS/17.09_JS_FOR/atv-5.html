@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+</head>
+
+<body>
+    <script>
+        let num1 = parseInt(prompt("Informe um número"));
+        let num2 = parseInt(prompt("Informe outro número"));
+
+        var soma = 0;
+        var quantidade = 0;
+
+        for(let inteiro = num1; inteiro <= num2; inteiro++){
+            soma = soma + inteiro;
+            quantidade = quantidade + 1;
+        }
+
+        var divisao = soma/quantidade;
+        document.write("O valor da divisão é: " + divisao);
+    </script>
+
+</body>
+
+</html>
